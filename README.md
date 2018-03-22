@@ -3,6 +3,13 @@ This package provides functionality for numerically stable computation of the lo
 
 With AVX instructions, this can be an order of magnitude faster than serial implementations (e.g. `matrixStats::logSumExp`). The code makes use of the `C++` vector class library from Agner Fog (http://www.agner.org/optimize/#vectorclass).
 
+# Installation
+
+The code is written in `C++`, wrapped in an `R` package. To install the `R` package, use
+```r
+devtools::install_github("1j/logSumExp")
+```
+
 # Examples
 
 Create a long vector of large negative values, representing the log of very small numbers (these may represent log likelihoods, for example):
