@@ -1,2 +1,3 @@
 useDynLib(logSumExp)
 export(logSumExp,colLogSumExps,logAddExp)
+import(Rcpp)
