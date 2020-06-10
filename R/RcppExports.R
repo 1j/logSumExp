@@ -39,7 +39,7 @@ logSumExp <- function(logV, accumulators = 8L) {
 #' @param accumulators The number of accumulators used (maximum 12).
 #' Typically 5 is fastest here, but this may be architecture-dependent.
 #' For values in the range [2,12], the difference in speed is typically
-#' not large (less than 10%).
+#' not large (less than 10\%).
 #' @examples
 #' logx = matrix(runif(1e6,-10000,-9000),1000,1000)
 #' logsum = colLogSumExps(logx)
